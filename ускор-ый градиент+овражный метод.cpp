@@ -23,7 +23,7 @@ double norma(double x1, double x2)
 	return sqrt(pow(x1, 2) + pow(x2, 2));
 }
 
-double funcMin1(double x1, double x2, double alpha) //одномер-я
+double funcMin1(double x1, double x2, double alpha) //Г®Г¤Г­Г®Г¬ГҐГ°-Гї
 {
 	return f(x1 - alpha * dx1(x1, x2), x2 - alpha * dx2(x1, x2));
 }
